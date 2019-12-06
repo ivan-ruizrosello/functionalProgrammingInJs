@@ -1,0 +1,12 @@
+{
+    "students": {
+        "entities": {
+            "1": {
+                "ssn": "1234-4321",
+                "firstname": "Ivan",
+                "lastname": "Ruiz"
+            }
+        },
+        "result": ["1"]
+    }
+}

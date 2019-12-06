@@ -5,7 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.15",
-    "ramda": "^0.26.1"
+    "ramda": "^0.26.1",
+    "rx": "^4.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
