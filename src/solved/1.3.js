@@ -15,7 +15,9 @@ const db = {
 
 const getOneStudentById = R.curry((students, id) => {
     const student = students.entities[id];
-    
+
+    if(!student) throw new Error("Student not found");
+
     return student;
 });
 
@@ -55,7 +57,8 @@ const writeTextByElementId = R.curry((elementId, info) => {
 })
 
 
-const USER_ID = 1;
+const USER_ID = db.students.result[0];
+
 const printUserDataById = R.pipe(
     getOneStudentById(db.students),
     shallowJsonToCsv,
