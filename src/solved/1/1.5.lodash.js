@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const data = require("./data.json");
+const data = require("./1.5.data.json");
 
 const getAverageGradeIfEnrolledGreaterThanTwoOrEqual = (data) => (
     _.chain(data)

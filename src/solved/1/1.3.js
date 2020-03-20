@@ -1,5 +1,5 @@
 const R = require('ramda');
-const db = require('./data.json');
+const db = require('./1.3.data.json');
 
 const getOneStudentById = R.curry((students, id) => {
     const student = students.entities[id];

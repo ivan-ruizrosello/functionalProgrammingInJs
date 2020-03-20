@@ -1,5 +1,5 @@
 const R = require('ramda');
-const data = require("./data.json");
+const data = require("./1.5.data.json");
 
 const getAverageGradeIfEnrolledGreaterThanTwoOrEqual = R.pipe(
     R.filter(v => v.enrolled >= 2),
