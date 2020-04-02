@@ -1,0 +1,15 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "ter-arrow-parens": [false, "as-needed"],
+    "import-name": [false],
+    "camelcase": "off",
+    "object-shorthand-properties-first": false,
+    "@typescript-eslint/camelcase": ["warn", { "properties": "never" }],
+    "max-line-length": {
+      "options": {
+        "limit": 150
+      }
+    }
+  }
+}
