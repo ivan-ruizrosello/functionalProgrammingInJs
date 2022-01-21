@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.15",
-    "log4js": "^6.1.2",
+    "log4js": "^6.4.0",
     "ramda": "^0.26.1",
     "rxjs": "^6.5.3",
     "ts-node-dev": "^1.0.0-pre.44"
